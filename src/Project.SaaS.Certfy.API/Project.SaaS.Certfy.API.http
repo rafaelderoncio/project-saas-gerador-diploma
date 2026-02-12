@@ -1,0 +1,6 @@
+@Project.SaaS.Certfy.API_HostAddress = http://localhost:5163
+
+GET {{Project.SaaS.Certfy.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

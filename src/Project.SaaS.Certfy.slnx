@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Project.SaaS.Certfy.API/Project.SaaS.Certfy.API.csproj" />
+  <Project Path="Project.SaaS.Certfy.Core/Project.SaaS.Certfy.Core.csproj" />
+  <Project Path="Project.SaaS.Certfy.Domain/Project.SaaS.Certfy.Domain.csproj" />
+  <Project Path="Project.SaaS.Certfy.Test/Project.SaaS.Certfy.Test.csproj" />
+</Solution>
