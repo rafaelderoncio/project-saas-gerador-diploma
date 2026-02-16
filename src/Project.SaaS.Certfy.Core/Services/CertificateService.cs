@@ -189,7 +189,7 @@ public class CertificateService(
             }
         }
 
-        if (request.Course.Disciplines.DistinctBy(x => x.DisciplineId).Count() != model.Disciplines.Count)
+        if (request.Course.Disciplines.Count != model.Disciplines.Count)
             throw new BaseException(
                 title: "Requisição Inválida",
                 detail: $"Não é permitido disciplinas repitidas.",
