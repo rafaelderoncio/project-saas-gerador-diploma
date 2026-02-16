@@ -2,6 +2,7 @@ using System.Drawing;
 using System.Globalization;
 using System.Net;
 using System.Text;
+using System.Text.Json;
 using Microsoft.AspNetCore.Http;
 using Project.SaaS.Certfy.Core.Exceptions;
 using Project.SaaS.Certfy.Core.Extensions;
@@ -25,7 +26,6 @@ public class CertificateService(
     {
         try
         {
-
             var model = new CertificateModel
             {
                 ConclusionDate = request.ConclusionDate.ToString(
@@ -54,12 +54,56 @@ public class CertificateService(
         catch (Exception ex)
         {
             throw new BaseException(
-                exceptionMessage: ex.Message,
+                exceptionMessage: $@"
+                    Erro ao processar request. Message: {ex.Message}
+                    Request: {JsonSerializer.Serialize(request)}
+                ",
                 title: "Erro interno",
                 detail: "Erro ao gerar certificado.",
                 status: HttpStatusCode.InternalServerError
             );
         }
+    }
+
+    public Task<object> ValidateAsync(string authentication)
+    {
+            throw new BaseException(
+                title: "Valiar Certificado",
+                detail: "Funcionalidade não implementada.",
+                status: HttpStatusCode.NotImplemented
+            );
+    }
+
+    private async Task<byte[]> GenerateCertificatePDFAsync(CertificateModel model, string template, string? qrCode = null)
+    {
+        // load template
+        var path = Path.Combine(AppContext.BaseDirectory, "Templates", $"{template}.html");
+        var content = await FileHelper.LoadContentAsync(path)
+            ?? throw new BaseException(
+                exceptionMessage: $@"
+                    Layout indisponível para geração do certificado. 
+                    Model: {JsonSerializer.Serialize(model)}",
+                title: "Erro Interno",
+                detail: $"Não foi possível gerar o certificado.",
+                status: HttpStatusCode.InternalServerError
+            );
+            
+        StringBuilder html = new (content);
+
+        // set simple data
+        html = ProcessSimpleData(model, html);
+
+        // set qrcode
+        html = ProcessQrCode(qrCode, html);
+
+        // set disciplines
+        html = ProcessDisciplines(model, html);
+
+        // set info text
+        html = ProcessFinalAvarage(model, html);
+
+        // proccess 
+        return await pdfService.GenerateAsync(html.ToString());
     }
 
     private async Task ValidateCertificate(CertificateRequest request, CertificateModel model)
@@ -200,39 +244,6 @@ public class CertificateService(
                 status: HttpStatusCode.BadRequest
             );
         #endregion
-    }
-
-    private async Task<byte[]> GenerateCertificatePDFAsync(CertificateModel model, string template, string? qrCode = null)
-    {
-        try
-        {
-            // load template
-            var path = Path.Combine(AppContext.BaseDirectory, "Templates", $"{template}.html");
-            var content = await FileHelper.LoadContentAsync(path)
-                ?? throw new Exception();
-                
-            StringBuilder html = new (content);
-
-            // set simple data
-            html = ProcessSimpleData(model, html);
-
-            // set qrcode
-            html = ProcessQrCode(qrCode, html);
-
-            // set disciplines
-            html = ProcessDisciplines(model, html);
-
-            // set info text
-            html = ProcessFinalAvarage(model, html);
-
-            // proccess 
-            return await pdfService.GenerateAsync(html.ToString());
-        }
-        catch (System.Exception)
-        {
-            
-            throw;
-        }
     }
 
     private static StringBuilder ProcessSimpleData(CertificateModel model, StringBuilder html)
@@ -379,14 +390,5 @@ public class CertificateService(
         }
 
         return groups;
-    }
-
-    public Task<object> ValidateAsync(string authentication)
-    {
-            throw new BaseException(
-                title: "Valiar Certificado",
-                detail: "Funcionalidade não implementada.",
-                status: HttpStatusCode.NoContent
-            );
     }
 }
