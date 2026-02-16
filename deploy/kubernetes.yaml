@@ -1,0 +1,87 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: certfy-api
+  labels:
+    app: certfy-api
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: certfy-api
+  template:
+    metadata:
+      labels:
+        app: certfy-api
+    spec:
+      containers:
+        - name: certfy-api
+          image: seu-registro/certfy-api:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8080
+              name: http
+          env:
+            - name: ASPNETCORE_ENVIRONMENT
+              value: Production
+            - name: ASPNETCORE_URLS
+              value: http://+:8080
+            - name: ASPNETCORE_FORWARDEDHEADERS_ENABLED
+              value: "true"
+          readinessProbe:
+            httpGet:
+              path: /institutions?page=1&size=1
+              port: http
+            initialDelaySeconds: 10
+            periodSeconds: 10
+            timeoutSeconds: 5
+            failureThreshold: 3
+          livenessProbe:
+            httpGet:
+              path: /institutions?page=1&size=1
+              port: http
+            initialDelaySeconds: 30
+            periodSeconds: 20
+            timeoutSeconds: 5
+            failureThreshold: 3
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "256Mi"
+            limits:
+              cpu: "500m"
+              memory: "512Mi"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: certfy-api
+  labels:
+    app: certfy-api
+spec:
+  selector:
+    app: certfy-api
+  ports:
+    - name: http
+      port: 80
+      targetPort: http
+  type: ClusterIP
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: certfy-api
+  annotations:
+    kubernetes.io/ingress.class: nginx
+spec:
+  rules:
+    - host: certfy.exemplo.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: certfy-api
+                port:
+                  number: 80
