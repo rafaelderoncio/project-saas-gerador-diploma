@@ -1,0 +1,322 @@
+[
+  {
+    "id": "cc0bb7cb-1e49-49e7-9d33-22dedfa26344",
+    "name": "Universidade Federal do Vale do Sol",
+    "acronym": "UFVS",
+    "city": "Solândia",
+    "state": "SP",
+    "type": "Universidade"
+  },
+  {
+    "id": "dfca6b28-ba78-4680-bfdd-496451efda4d",
+    "name": "Universidade Tecnológica do Litoral",
+    "acronym": "UTL",
+    "city": "Mar Azul",
+    "state": "RJ",
+    "type": "Universidade"
+  },
+  {
+    "id": "0fed13ab-0077-41d2-a397-ac1271d56174",
+    "name": "Universidade Metropolitana do Norte",
+    "acronym": "UMN",
+    "city": "Nova Aurora",
+    "state": "MG",
+    "type": "Universidade"
+  },
+  {
+    "id": "b23c5d98-9faf-4065-bd99-8ab03a69d82c",
+    "name": "Universidade Nacional de Ciências Aplicadas",
+    "acronym": "UNCA",
+    "city": "Horizonte Novo",
+    "state": "DF",
+    "type": "Universidade"
+  },
+  {
+    "id": "ada007f1-4b27-4f54-bb88-cbf84975dc82",
+    "name": "Universidade do Cerrado Brasileiro",
+    "acronym": "UCBR",
+    "city": "Campo Verde",
+    "state": "GO",
+    "type": "Universidade"
+  },
+  {
+    "id": "2c646f26-06d5-4f61-b1f0-66e03e3920b0",
+    "name": "Centro Universitário Atlas",
+    "acronym": "UNIATLAS",
+    "city": "Atlas City",
+    "state": "SP",
+    "type": "Centro Universitário"
+  },
+  {
+    "id": "411aa406-4afa-4b5f-a7e2-c8002bef908e",
+    "name": "Centro Universitário Horizonte",
+    "acronym": "UNIHORIZONTE",
+    "city": "Horizonte Azul",
+    "state": "MG",
+    "type": "Centro Universitário"
+  },
+  {
+    "id": "0f2454f8-f6bb-4f30-8fd6-9de7b5b75dcb",
+    "name": "Centro Universitário Nova Geração",
+    "acronym": "UNING",
+    "city": "Nova Geração",
+    "state": "PR",
+    "type": "Centro Universitário"
+  },
+  {
+    "id": "6cbadcae-10cb-4318-a2ad-decfda33236a",
+    "name": "Centro Universitário GlobalTech",
+    "acronym": "UNIGLOBAL",
+    "city": "Tech Valley",
+    "state": "SP",
+    "type": "Centro Universitário"
+  },
+  {
+    "id": "ea72cede-189f-4a7f-bb9e-9a815e3f8ae1",
+    "name": "Centro Universitário do Vale Digital",
+    "acronym": "UNIVAD",
+    "city": "Vale Digital",
+    "state": "SC",
+    "type": "Centro Universitário"
+  },
+  {
+    "id": "fe57b5d9-0872-4e75-8c4f-9a551ce44231",
+    "name": "Instituto Superior de Tecnologia Avançada",
+    "acronym": "ISTA",
+    "city": "TecNova",
+    "state": "SP",
+    "type": "Instituto"
+  },
+  {
+    "id": "eb6d8722-a975-483a-ac32-7b7f85b15b72",
+    "name": "Instituto Nacional de Inovação",
+    "acronym": "INI",
+    "city": "Inova City",
+    "state": "DF",
+    "type": "Instituto"
+  },
+  {
+    "id": "512d4bb1-8188-45e9-afe3-75aa3e71193d",
+    "name": "Instituto Brasileiro de Educação Aplicada",
+    "acronym": "IBEA",
+    "city": "Educa Brasil",
+    "state": "RJ",
+    "type": "Instituto"
+  },
+  {
+    "id": "440e2a41-dbeb-4933-8bb4-77e5b79be36f",
+    "name": "Instituto Superior de Ciências Digitais",
+    "acronym": "ISCD",
+    "city": "Cyber City",
+    "state": "SP",
+    "type": "Instituto"
+  },
+  {
+    "id": "8fdd518c-28f7-4d7b-b333-b3268b2528c5",
+    "name": "Instituto Técnico do Futuro",
+    "acronym": "ITF",
+    "city": "Futurlândia",
+    "state": "MG",
+    "type": "Instituto"
+  },
+  {
+    "id": "f5ff3dc4-dbf8-43bf-8a98-905019f2b37c",
+    "name": "Faculdade Horizonte Azul",
+    "acronym": "FHA",
+    "city": "Horizonte Azul",
+    "state": "BA",
+    "type": "Faculdade"
+  },
+  {
+    "id": "f26e8677-42df-457e-926d-293e1820dc96",
+    "name": "Faculdade Novo Saber",
+    "acronym": "FNS",
+    "city": "Saber City",
+    "state": "SP",
+    "type": "Faculdade"
+  },
+  {
+    "id": "3e50584f-2e50-4e40-9249-eb7c853d150b",
+    "name": "Faculdade Alfa Digital",
+    "acronym": "FAD",
+    "city": "Alfa City",
+    "state": "SC",
+    "type": "Faculdade"
+  },
+  {
+    "id": "f04daf85-7692-4b9a-b6f7-7c4e3b8cc113",
+    "name": "Faculdade Beta Tech",
+    "acronym": "FBT",
+    "city": "Beta Valley",
+    "state": "PR",
+    "type": "Faculdade"
+  },
+  {
+    "id": "ee54e602-f159-44cd-a63e-68c56375f5ae",
+    "name": "Faculdade Delta do Conhecimento",
+    "acronym": "FDC",
+    "city": "Delta City",
+    "state": "RS",
+    "type": "Faculdade"
+  },
+  {
+    "id": "cf4b90da-a571-4b26-8240-373dcab061cd",
+    "name": "Universidade Livre de Tecnologia e Inovação",
+    "acronym": "ULTI",
+    "city": "InovaTech",
+    "state": "SP",
+    "type": "Universidade"
+  },
+  {
+    "id": "7eba37e4-866d-488e-8ad8-ad472ba6c03b",
+    "name": "Universidade Internacional do Brasil Digital",
+    "acronym": "UIBD",
+    "city": "Global City",
+    "state": "RJ",
+    "type": "Universidade"
+  },
+  {
+    "id": "a6c2dd98-ceea-4cb3-bc79-f7b371c303c7",
+    "name": "Universidade de Ciências Humanas e Sociais",
+    "acronym": "UCHS",
+    "city": "Humanitas",
+    "state": "MG",
+    "type": "Universidade"
+  },
+  {
+    "id": "a176c58c-e26e-4eae-a7f9-43aaaa713295",
+    "name": "Universidade Brasileira de Engenharia Aplicada",
+    "acronym": "UBEA",
+    "city": "Engenho Novo",
+    "state": "SP",
+    "type": "Universidade"
+  },
+  {
+    "id": "ba5ac143-7664-4b02-9878-44a267a13f1f",
+    "name": "Universidade Nacional de Saúde Integrada",
+    "acronym": "UNSI",
+    "city": "Vida Nova",
+    "state": "RS",
+    "type": "Universidade"
+  },
+  {
+    "id": "c9ed7d75-cf03-4ee0-b0f4-2edb3d7f9900",
+    "name": "Centro Universitário Aurora",
+    "acronym": "UNIAURORA",
+    "city": "Aurora",
+    "state": "SC",
+    "type": "Centro Universitário"
+  },
+  {
+    "id": "ff17fa27-1440-4706-89e1-03ca2b9d9d72",
+    "name": "Centro Universitário Prisma",
+    "acronym": "UNIPRISMA",
+    "city": "Prisma City",
+    "state": "SP",
+    "type": "Centro Universitário"
+  },
+  {
+    "id": "002f5e4c-125b-47b1-8c0a-668530bdfb0d",
+    "name": "Centro Universitário Integração",
+    "acronym": "UNIINTEGRA",
+    "city": "Integra",
+    "state": "PR",
+    "type": "Centro Universitário"
+  },
+  {
+    "id": "0ace6aae-0597-4968-bfe8-4e9efc48768e",
+    "name": "Centro Universitário Saber Livre",
+    "acronym": "UNISABER",
+    "city": "Saber Livre",
+    "state": "GO",
+    "type": "Centro Universitário"
+  },
+  {
+    "id": "4677eb22-e272-4cb1-9a96-e25d6dbf07df",
+    "name": "Centro Universitário Progresso",
+    "acronym": "UNIPRO",
+    "city": "Progresso",
+    "state": "MT",
+    "type": "Centro Universitário"
+  },
+  {
+    "id": "63200002-eb68-491e-9aac-cf892a4cea15",
+    "name": "Instituto Superior de Gestão e Negócios",
+    "acronym": "ISGN",
+    "city": "Business City",
+    "state": "SP",
+    "type": "Instituto"
+  },
+  {
+    "id": "7fa76472-8b80-4b3d-b1b3-2e767792b594",
+    "name": "Instituto de Ciências Jurídicas Avançadas",
+    "acronym": "ICJA",
+    "city": "Lex City",
+    "state": "DF",
+    "type": "Instituto"
+  },
+  {
+    "id": "9509bb6d-f446-496d-a72e-c83ba3b57724",
+    "name": "Instituto de Tecnologia e Engenharia Moderna",
+    "acronym": "ITEM",
+    "city": "EngTech",
+    "state": "RJ",
+    "type": "Instituto"
+  },
+  {
+    "id": "807ccf80-f304-43de-968d-eb76e59758f6",
+    "name": "Instituto Educacional do Brasil Futuro",
+    "acronym": "IEBF",
+    "city": "Brasil Futuro",
+    "state": "SP",
+    "type": "Instituto"
+  },
+  {
+    "id": "14c8c424-1370-4efd-9049-2c713792d030",
+    "name": "Instituto Nacional de Educação Digital",
+    "acronym": "INED",
+    "city": "Digital City",
+    "state": "SP",
+    "type": "Instituto"
+  },
+  {
+    "id": "47fe3ec5-6698-469a-81ca-8f79bbc4911d",
+    "name": "Faculdade Global de Negócios",
+    "acronym": "FGN",
+    "city": "Global City",
+    "state": "SP",
+    "type": "Faculdade"
+  },
+  {
+    "id": "3a1c37eb-8c7f-475a-9edd-f467201fa8b9",
+    "name": "Faculdade Superior de Inovação",
+    "acronym": "FSI",
+    "city": "Inova City",
+    "state": "MG",
+    "type": "Faculdade"
+  },
+  {
+    "id": "f68c946d-b9de-441e-9f06-31c1923ee8cf",
+    "name": "Faculdade Brasileira de Tecnologia Aplicada",
+    "acronym": "FBTA",
+    "city": "Tech Brasil",
+    "state": "SC",
+    "type": "Faculdade"
+  },
+  {
+    "id": "ae91e2dd-4f60-4e8d-a44c-4ec96a6f558e",
+    "name": "Faculdade Nova Era do Conhecimento",
+    "acronym": "FNEC",
+    "city": "Nova Era",
+    "state": "PR",
+    "type": "Faculdade"
+  },
+  {
+    "id": "c1bb9553-e133-42eb-9f0c-ea4832cbb474",
+    "name": "Faculdade Integrada do Futuro",
+    "acronym": "FIF",
+    "city": "Futuro",
+    "state": "SP",
+    "type": "Faculdade"
+  }
+]

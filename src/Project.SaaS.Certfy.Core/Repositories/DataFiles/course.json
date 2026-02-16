@@ -1,0 +1,317 @@
+[
+  {
+    "id": "9f8bd499-152b-447a-afae-69ca805cebfd",
+    "name": "Engenharia de Software",
+    "degree": "Bacharelado",
+    "totalWorkload": 1800,
+    "averageApproval": 7
+  },
+  {
+    "id": "67d40e86-a7b7-4714-b849-35716ff0f8f4",
+    "name": "Ciência da Computação",
+    "degree": "Bacharelado",
+    "totalWorkload": 1800,
+    "averageApproval": 7
+  },
+  {
+    "id": "6bc1c225-fb60-4539-9eb8-0bb3a92d3cd6",
+    "name": "Análise e Desenvolvimento de Sistemas",
+    "degree": "Tecnólogo",
+    "totalWorkload": 1200,
+    "averageApproval": 7
+  },
+  {
+    "id": "1df2f6c1-6cce-4f0b-a1d0-64bda4f81acd",
+    "name": "Sistemas de Informação",
+    "degree": "Bacharelado",
+    "totalWorkload": 1800,
+    "averageApproval": 7
+  },
+  {
+    "id": "68133aca-0661-47e1-a47d-97e7f0d16907",
+    "name": "Engenharia da Computação",
+    "degree": "Bacharelado",
+    "totalWorkload": 2000,
+    "averageApproval": 7
+  },
+  {
+    "id": "8656a83b-180c-4ed3-bff0-789efcdb17fa",
+    "name": "Administração",
+    "degree": "Bacharelado",
+    "totalWorkload": 1500,
+    "averageApproval": 7
+  },
+  {
+    "id": "88c672e3-9d82-4f9d-88d1-c7ddb0badcc6",
+    "name": "Ciências Contábeis",
+    "degree": "Bacharelado",
+    "totalWorkload": 1500,
+    "averageApproval": 7
+  },
+  {
+    "id": "37d9fa65-0d94-4901-88c5-06b2662270d9",
+    "name": "Economia",
+    "degree": "Bacharelado",
+    "totalWorkload": 1500,
+    "averageApproval": 7
+  },
+  {
+    "id": "d4f1d6a5-4f57-4fd9-820e-ca0603795f38",
+    "name": "Gestão de Recursos Humanos",
+    "degree": "Tecnólogo",
+    "totalWorkload": 1200,
+    "averageApproval": 7
+  },
+  {
+    "id": "99947178-945b-4e9a-9f37-e6b814990043",
+    "name": "Gestão Financeira",
+    "degree": "Tecnólogo",
+    "totalWorkload": 1200,
+    "averageApproval": 7
+  },
+  {
+    "id": "f7cfda5f-d4ee-419b-a476-fd70b6b6f8c9",
+    "name": "Direito",
+    "degree": "Bacharelado",
+    "totalWorkload": 1850,
+    "averageApproval": 7
+  },
+  {
+    "id": "1fd6a764-301a-42b4-9e55-03d3706d3550",
+    "name": "Serviço Social",
+    "degree": "Bacharelado",
+    "totalWorkload": 1500,
+    "averageApproval": 7
+  },
+  {
+    "id": "67f6b6f7-d236-4189-ac13-1f7d8c90add2",
+    "name": "Relações Internacionais",
+    "degree": "Bacharelado",
+    "totalWorkload": 1600,
+    "averageApproval": 7
+  },
+  {
+    "id": "acd5323f-91db-4513-ae49-5bc78158c293",
+    "name": "Ciências Políticas",
+    "degree": "Bacharelado",
+    "totalWorkload": 1500,
+    "averageApproval": 7
+  },
+  {
+    "id": "95db22d4-e3e8-4a29-b82e-2d58a2efaacc",
+    "name": "Segurança Pública",
+    "degree": "Tecnólogo",
+    "totalWorkload": 1200,
+    "averageApproval": 7
+  },
+  {
+    "id": "b89664ba-2b2b-4fbb-8b73-f9a4993c499f",
+    "name": "Medicina",
+    "degree": "Bacharelado",
+    "totalWorkload": 3600,
+    "averageApproval": 7
+  },
+  {
+    "id": "c97f926a-d30a-4dab-8334-12404239be5e",
+    "name": "Enfermagem",
+    "degree": "Bacharelado",
+    "totalWorkload": 2000,
+    "averageApproval": 7
+  },
+  {
+    "id": "9bee81d9-f9ce-4d92-b816-f6a773b54cd1",
+    "name": "Fisioterapia",
+    "degree": "Bacharelado",
+    "totalWorkload": 2000,
+    "averageApproval": 7
+  },
+  {
+    "id": "0aafe799-a09c-401a-8cf9-3a57f02cc63c",
+    "name": "Odontologia",
+    "degree": "Bacharelado",
+    "totalWorkload": 2000,
+    "averageApproval": 7
+  },
+  {
+    "id": "7efd2812-389e-40a8-be40-46befda420d4",
+    "name": "Farmácia",
+    "degree": "Bacharelado",
+    "totalWorkload": 2000,
+    "averageApproval": 7
+  },
+  {
+    "id": "f52f79c7-611b-48a0-9ee0-e26fc1722a0b",
+    "name": "Psicologia",
+    "degree": "Bacharelado",
+    "totalWorkload": 2000,
+    "averageApproval": 7
+  },
+  {
+    "id": "a9919652-20e3-47e7-a5dc-766342b6ec33",
+    "name": "Educação Física",
+    "degree": "Bacharelado",
+    "totalWorkload": 1600,
+    "averageApproval": 7
+  },
+  {
+    "id": "2e85f3ce-77df-48af-8839-ed0643437e0d",
+    "name": "Nutrição",
+    "degree": "Bacharelado",
+    "totalWorkload": 1600,
+    "averageApproval": 7
+  },
+  {
+    "id": "35a900d4-79b1-4f93-b6c8-de0b1538c83c",
+    "name": "Biomedicina",
+    "degree": "Bacharelado",
+    "totalWorkload": 1600,
+    "averageApproval": 7
+  },
+  {
+    "id": "cba24ea1-1962-405d-9dce-2d3c7e558df5",
+    "name": "Estética e Cosmética",
+    "degree": "Tecnólogo",
+    "totalWorkload": 1200,
+    "averageApproval": 7
+  },
+  {
+    "id": "929ec403-4f24-4b9d-8b9f-80696b09a319",
+    "name": "Arquitetura e Urbanismo",
+    "degree": "Bacharelado",
+    "totalWorkload": 1800,
+    "averageApproval": 7
+  },
+  {
+    "id": "bf9c9807-fd3f-43d0-9bd4-a73ebf323d35",
+    "name": "Engenharia Civil",
+    "degree": "Bacharelado",
+    "totalWorkload": 2000,
+    "averageApproval": 7
+  },
+  {
+    "id": "12c86704-7eb0-45a8-8cd5-2fbb1eed046b",
+    "name": "Engenharia Elétrica",
+    "degree": "Bacharelado",
+    "totalWorkload": 2000,
+    "averageApproval": 7
+  },
+  {
+    "id": "828bc711-cd2e-4fa0-9ae4-b73fda544137",
+    "name": "Engenharia Mecânica",
+    "degree": "Bacharelado",
+    "totalWorkload": 2000,
+    "averageApproval": 7
+  },
+  {
+    "id": "492977f9-4450-4e97-b2d9-69db83331809",
+    "name": "Engenharia de Produção",
+    "degree": "Bacharelado",
+    "totalWorkload": 2000,
+    "averageApproval": 7
+  },
+  {
+    "id": "46ca7429-5650-4a18-860f-9f74647e7af0",
+    "name": "Design Gráfico",
+    "degree": "Bacharelado",
+    "totalWorkload": 1500,
+    "averageApproval": 7
+  },
+  {
+    "id": "4fc84bfa-7c45-4025-a3a5-8416026faf90",
+    "name": "Publicidade e Propaganda",
+    "degree": "Bacharelado",
+    "totalWorkload": 1500,
+    "averageApproval": 7
+  },
+  {
+    "id": "a7be62d1-476e-4cec-8d15-68581940acba",
+    "name": "Jornalismo",
+    "degree": "Bacharelado",
+    "totalWorkload": 1500,
+    "averageApproval": 7
+  },
+  {
+    "id": "3fd4eb86-33b2-4698-883c-d38c252f5c97",
+    "name": "Produção Audiovisual",
+    "degree": "Tecnólogo",
+    "totalWorkload": 1200,
+    "averageApproval": 7
+  },
+  {
+    "id": "282a20ef-0e7f-49bf-bb8d-a1d7bb128acd",
+    "name": "Marketing",
+    "degree": "Tecnólogo",
+    "totalWorkload": 1200,
+    "averageApproval": 7
+  },
+  {
+    "id": "31080dc7-722e-403d-baa4-380d85de4261",
+    "name": "Logística",
+    "degree": "Tecnólogo",
+    "totalWorkload": 1200,
+    "averageApproval": 7
+  },
+  {
+    "id": "318eeb4c-b883-43f3-a222-1e941c5cd446",
+    "name": "Gestão Comercial",
+    "degree": "Tecnólogo",
+    "totalWorkload": 1200,
+    "averageApproval": 7
+  },
+  {
+    "id": "af10b9ed-2816-4041-ad66-6446cd831a64",
+    "name": "Gestão da Qualidade",
+    "degree": "Tecnólogo",
+    "totalWorkload": 1200,
+    "averageApproval": 7
+  },
+  {
+    "id": "459af5a7-cfae-4036-8157-8044abd9ff5f",
+    "name": "Comércio Exterior",
+    "degree": "Tecnólogo",
+    "totalWorkload": 1200,
+    "averageApproval": 7
+  },
+  {
+    "id": "0bd44880-2dde-4c38-894a-b7a747177418",
+    "name": "Gestão de Tecnologia da Informação",
+    "degree": "Tecnólogo",
+    "totalWorkload": 1200,
+    "averageApproval": 7
+  },
+  {
+    "id": "36eb229e-06a7-4402-8d17-2c32568c4bc5",
+    "name": "Ciência de Dados",
+    "degree": "Tecnólogo",
+    "totalWorkload": 1200,
+    "averageApproval": 7
+  },
+  {
+    "id": "423e84fb-2735-4e13-b476-3ef1a836bd8d",
+    "name": "Inteligência Artificial",
+    "degree": "Tecnólogo",
+    "totalWorkload": 1200,
+    "averageApproval": 7
+  },
+  {
+    "id": "421da9a0-b2c5-4cda-a757-df1dc249e088",
+    "name": "Segurança da Informação",
+    "degree": "Tecnólogo",
+    "totalWorkload": 1200,
+    "averageApproval": 7
+  },
+  {
+    "id": "0c2e7cff-1d52-4b70-9192-dd6d6af78a5e",
+    "name": "Jogos Digitais",
+    "degree": "Tecnólogo",
+    "totalWorkload": 1200,
+    "averageApproval": 7
+  },
+  {
+    "id": "9f6e221f-ddc5-401a-95fb-5a5a41a226f3",
+    "name": "Computação em Nuvem",
+    "degree": "Tecnólogo",
+    "totalWorkload": 1200,
+    "averageApproval": 7
+  }
+]

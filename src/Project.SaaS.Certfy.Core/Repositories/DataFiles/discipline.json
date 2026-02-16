@@ -1,0 +1,911 @@
+[
+  {
+    "id": "5c06fc8f-c05d-4f30-909b-cd17928f8ee5",
+    "name": "Algoritmos e Lógica de Programação",
+    "description": "Fundamentos da lógica computacional e algoritmos.",
+    "types": [
+      "Tecnologia"
+    ],
+    "workload": 80,
+    "averageApproval": 7
+  },
+  {       
+    "id": "b914ab35-de20-4bf8-9da7-81c88141198e",
+    "name": "Programação Orientada a Objetos",
+    "description": "Conceitos de classes, objetos, herança e polimorfismo.",
+    "types": [
+      "Tecnologia"
+    ],
+    "workload": 80,
+    "averageApproval": 7
+  },
+  {
+    "id": "139ab029-7e45-4669-8454-c009190b44e8",
+    "name": "Estrutura de Dados",
+    "description": "Listas, filas, pilhas, árvores e grafos.",
+    "types": [
+      "Tecnologia",
+      "Dados"
+    ],
+    "workload": 80,
+    "averageApproval": 7
+  },
+  {
+    "id": "2723118d-d898-46e2-a166-bd27246dead9",
+    "name": "Banco de Dados",
+    "description": "Modelagem, SQL e sistemas gerenciadores de banco.",
+    "types": [
+      "Tecnologia",
+      "Dados"
+    ],
+    "workload": 80,
+    "averageApproval": 7
+  },
+  {
+    "id": "063c3977-1745-4a60-a6c2-10060fc05f22",
+    "name": "Engenharia de Software",
+    "description": "Processos, métodos e qualidade de software.",
+    "types": [
+      "Tecnologia",
+      "Engenharia"
+    ],
+    "workload": 80,
+    "averageApproval": 7
+  },
+  {
+    "id": "3cba4e35-5b41-4540-b8ff-a3f4740765df",
+    "name": "Arquitetura de Software",
+    "description": "Padrões arquiteturais e design de sistemas.",
+    "types": [
+      "Tecnologia"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "e21f3922-65db-441d-8004-04642c531ffa",
+    "name": "DevOps e CI/CD",
+    "description": "Integração contínua e entrega contínua.",
+    "types": [
+      "Tecnologia",
+      "Engenharia"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "348507e3-71d8-40d3-9637-fc5231e3ec4e",
+    "name": "Computação em Nuvem",
+    "description": "Cloud computing e arquiteturas distribuídas.",
+    "types": [
+      "Tecnologia"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "dfdcc672-694e-44fe-b7c7-9bc5a2ab8964",
+    "name": "Segurança da Informação",
+    "description": "Proteção de dados e sistemas.",
+    "types": [
+      "Tecnologia",
+      "Direito"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "7010ec37-de13-46ef-ab45-9472fe1415cb",
+    "name": "Inteligência Artificial",
+    "description": "Fundamentos de IA e machine learning.",
+    "types": [
+      "Tecnologia",
+      "Dados"
+    ],
+    "workload": 80,
+    "averageApproval": 7
+  },
+  {
+    "id": "e3fe1ed0-0e52-474f-9e0d-3df2c07bc460",
+    "name": "Ciência de Dados",
+    "description": "Análise, tratamento e visualização de dados.",
+    "types": [
+      "Dados",
+      "Tecnologia"
+    ],
+    "workload": 80,
+    "averageApproval": 7
+  },
+  {
+    "id": "84e91b6e-e5d3-4afd-9c0f-40029eff1a6d",
+    "name": "Big Data",
+    "description": "Processamento de grandes volumes de dados.",
+    "types": [
+      "Dados",
+      "Tecnologia"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "55917f01-0bca-4d7f-a7e3-d989117e8198",
+    "name": "Machine Learning",
+    "description": "Modelos de aprendizado de máquina.",
+    "types": [
+      "Dados",
+      "Tecnologia"
+    ],
+    "workload": 80,
+    "averageApproval": 7
+  },
+  {
+    "id": "47656214-1cb4-4a50-930d-e5219702acf3",
+    "name": "Estatística Aplicada",
+    "description": "Estatística para análise de dados.",
+    "types": [
+      "Dados",
+      "Educação"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "21e32c3d-ea04-44ea-9499-cbe16414c99a",
+    "name": "Probabilidade",
+    "description": "Fundamentos probabilísticos.",
+    "types": [
+      "Dados",
+      "Educação"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "d45166bc-e3ca-48e0-a6df-4dd66c933b3d",
+    "name": "Administração Geral",
+    "description": "Fundamentos da administração.",
+    "types": [
+      "Administração"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "6d1540a1-b00a-4a43-910b-5a7dbc3a94b3",
+    "name": "Gestão de Pessoas",
+    "description": "Gestão de equipes e liderança.",
+    "types": [
+      "Administração",
+      "Negócios"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "476de7dd-52d6-47be-a67e-26ca29c4808c",
+    "name": "Gestão Financeira",
+    "description": "Controle financeiro e investimentos.",
+    "types": [
+      "Administração",
+      "Negócios"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "6d00a175-f057-4045-b8cb-aaaaa3a7c6b9",
+    "name": "Empreendedorismo",
+    "description": "Criação e gestão de negócios.",
+    "types": [
+      "Administração",
+      "Negócios"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "a72cc99c-0bad-4f96-9605-45a344db377c",
+    "name": "Planejamento Estratégico",
+    "description": "Estratégias organizacionais.",
+    "types": [
+      "Administração"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "32376f4a-2205-40a9-8ca8-d3be096c20d7",
+    "name": "Marketing Digital",
+    "description": "Marketing em plataformas digitais.",
+    "types": [
+      "Negócios",
+      "Tecnologia"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "2639a099-9a44-4852-8206-8a76edc2cccc",
+    "name": "Comportamento do Consumidor",
+    "description": "Psicologia do consumo.",
+    "types": [
+      "Negócios",
+      "Administração"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "3379a440-d9af-44cd-a2c6-b52cc2c8081f",
+    "name": "Gestão de Projetos",
+    "description": "PMBOK e metodologias ágeis.",
+    "types": [
+      "Administração",
+      "Engenharia"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "72a8bb82-57f6-44b8-9dda-67e54395fd05",
+    "name": "Logística Empresarial",
+    "description": "Cadeia de suprimentos.",
+    "types": [
+      "Administração",
+      "Negócios"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "3c85201a-42ab-4970-b1fe-0c6b9943d53a",
+    "name": "Comércio Exterior",
+    "description": "Importação e exportação.",
+    "types": [
+      "Negócios",
+      "Administração"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "5faf8751-82fc-47c8-88aa-c35ff1e69ae2",
+    "name": "Direito Constitucional",
+    "description": "Fundamentos constitucionais.",
+    "types": [
+      "Direito"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "aa72b31a-3d31-4f6f-b755-86c4ed7af13f",
+    "name": "Direito Civil",
+    "description": "Relações civis e contratos.",
+    "types": [
+      "Direito"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "b207a89b-bb79-471a-a7a7-14d4c5f1180b",
+    "name": "Direito Penal",
+    "description": "Crimes e sanções.",
+    "types": [
+      "Direito"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "eb1c2057-8686-4957-9cfa-89f28cd0d07e",
+    "name": "Direito do Trabalho",
+    "description": "Relações trabalhistas.",
+    "types": [
+      "Direito"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "8231cbf8-30ca-452d-b456-981495195f2e",
+    "name": "Direito Digital",
+    "description": "Tecnologia e legislação.",
+    "types": [
+      "Direito",
+      "Tecnologia"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "d73bc568-f2de-429c-a127-fc6c61d786a8",
+    "name": "Anatomia Humana",
+    "description": "Estrutura do corpo humano.",
+    "types": [
+      "Saúde"
+    ],
+    "workload": 80,
+    "averageApproval": 7
+  },
+  {
+    "id": "44f5561b-e202-4bb1-ae5a-22c22411d4fd",
+    "name": "Fisiologia Humana",
+    "description": "Funcionamento do corpo humano.",
+    "types": [
+      "Saúde"
+    ],
+    "workload": 80,
+    "averageApproval": 7
+  },
+  {
+    "id": "6da7204f-0d2b-4b81-a663-a10b053055d9",
+    "name": "Bioética",
+    "description": "Ética aplicada à saúde.",
+    "types": [
+      "Saúde",
+      "Direito"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "b7525dfb-b552-411c-8f77-ea73d41eb564",
+    "name": "Saúde Coletiva",
+    "description": "Políticas públicas de saúde.",
+    "types": [
+      "Saúde"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "10fe1614-5907-4226-a529-b925c5c0dfe5",
+    "name": "Epidemiologia",
+    "description": "Estudo das doenças.",
+    "types": [
+      "Saúde",
+      "Dados"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "05142422-35f8-4baa-a9eb-166be7f46117",
+    "name": "Didática",
+    "description": "Metodologias de ensino.",
+    "types": [
+      "Educação"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "55ff9df7-44cb-44b3-9122-984f195220af",
+    "name": "Psicologia da Educação",
+    "description": "Processos cognitivos no aprendizado.",
+    "types": [
+      "Educação",
+      "Saúde"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "fff05d40-206b-4279-b967-6955495113e3",
+    "name": "Avaliação Educacional",
+    "description": "Métodos de avaliação pedagógica.",
+    "types": [
+      "Educação"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "15c3c94f-7da5-43bf-9422-6d9d787fcf88",
+    "name": "Educação Inclusiva",
+    "description": "Inclusão e acessibilidade.",
+    "types": [
+      "Educação",
+      "Direito"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "06cc3f3d-0988-46bd-be7c-638a05a0995a",
+    "name": "Tecnologias Educacionais",
+    "description": "Uso da tecnologia na educação.",
+    "types": [
+      "Educação",
+      "Tecnologia"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "c241a77e-ddbc-46aa-a37b-08fa2a79b984",
+    "name": "Engenharia de Requisitos",
+    "description": "Levantamento e análise de requisitos.",
+    "types": [
+      "Tecnologia",
+      "Engenharia"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "78a570a0-d99c-45e2-bd9b-4a79d99bc48b",
+    "name": "Redes de Computadores",
+    "description": "Comunicação de dados.",
+    "types": [
+      "Tecnologia"
+    ],
+    "workload": 80,
+    "averageApproval": 7
+  },
+  {
+    "id": "e88ff4a6-7a09-4e18-8252-96c77b03ca03",
+    "name": "Sistemas Distribuídos",
+    "description": "Arquiteturas distribuídas.",
+    "types": [
+      "Tecnologia"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "b4e65f20-319d-4652-a2ee-85100af1667c",
+    "name": "Governança de TI",
+    "description": "Gestão estratégica de TI.",
+    "types": [
+      "Tecnologia",
+      "Administração"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "d7f22b4c-abc4-424e-8b2d-340a67d0c136",
+    "name": "Auditoria de Sistemas",
+    "description": "Controle e conformidade em TI.",
+    "types": [
+      "Tecnologia",
+      "Administração"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "5ade12a0-8144-4072-9de2-21867a5b9191",
+    "name": "Gestão Ambiental",
+    "description": "Sustentabilidade e meio ambiente.",
+    "types": [
+      "Engenharia",
+      "Administração"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "ac056adf-bb9f-4fe1-bb5e-8d4bd24f7eec",
+    "name": "Responsabilidade Social",
+    "description": "Ética corporativa.",
+    "types": [
+      "Administração",
+      "Educação"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "095f355c-c719-4afd-91b3-aee02809a419",
+    "name": "Economia Criativa",
+    "description": "Negócios criativos.",
+    "types": [
+      "Negócios"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "43238a62-4b01-4453-92d2-d14f6b536184",
+    "name": "Inovação e Startups",
+    "description": "Ecossistemas de inovação.",
+    "types": [
+      "Negócios",
+      "Tecnologia"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "94db691a-8187-4733-af67-88ad1b98e276",
+    "name": "Gestão da Qualidade",
+    "description": "Processos e melhoria contínua.",
+    "types": [
+      "Administração"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "4a13c4a3-9aaa-49ea-922d-a4b42ff4a51b",
+    "name": "Metodologia Científica",
+    "description": "Pesquisa e produção científica.",
+    "types": [
+      "Educação"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "9f2acba5-ea97-42a1-ba09-a9750a080a02",
+    "name": "Ética Profissional",
+    "description": "Ética nas profissões.",
+    "types": [
+      "Educação",
+      "Direito"
+    ],
+    "workload": 40,
+    "averageApproval": 7
+  },
+  {
+    "id": "a4cd296b-22b2-43da-a818-e4d75e404a16",
+    "name": "Sociologia",
+    "description": "Estrutura social.",
+    "types": [
+      "Educação"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "84278e65-6a3e-4dc2-8844-37b8ee5c5a8b",
+    "name": "Filosofia",
+    "description": "Fundamentos filosóficos.",
+    "types": [
+      "Educação"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "4f79f809-cb78-47c7-9e83-ab8ee92a3493",
+    "name": "Comunicação Empresarial",
+    "description": "Comunicação organizacional.",
+    "types": [
+      "Administração",
+      "Negócios"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "98952040-4116-4fb3-9105-bf7a77959539",
+    "name": "Governança Corporativa",
+    "description": "Boas práticas de governança organizacional.",
+    "types": [
+      "Administração",
+      "Negócios"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "57ef38e7-5749-4e30-9ad0-9cfc9d314923",
+    "name": "Compliance e LGPD",
+    "description": "Conformidade legal e proteção de dados.",
+    "types": [
+      "Direito",
+      "Tecnologia"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "a77ccd77-72e3-46c7-abc4-3fedab880b2f",
+    "name": "Proteção de Dados",
+    "description": "Privacidade e segurança da informação.",
+    "types": [
+      "Tecnologia",
+      "Direito"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "e36999d4-d355-4613-a118-912d927ba678",
+    "name": "Arquitetura de Microserviços",
+    "description": "Sistemas distribuídos baseados em serviços.",
+    "types": [
+      "Tecnologia",
+      "Engenharia"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "7fe1e8c7-878f-453a-9898-24d6c294811f",
+    "name": "APIs e Integrações",
+    "description": "Integração de sistemas via APIs.",
+    "types": [
+      "Tecnologia"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "9e7a052d-40f0-4ff1-ab55-fcd1a13be0d5",
+    "name": "Blockchain",
+    "description": "Tecnologia de registros distribuídos.",
+    "types": [
+      "Tecnologia",
+      "Negócios"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "7971d61b-e246-4ecb-bd59-a449e70fa243",
+    "name": "Criptomoedas e Finanças Digitais",
+    "description": "Economia digital e criptoativos.",
+    "types": [
+      "Tecnologia",
+      "Negócios"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "6a0832f0-d15d-4a7b-b54f-2137261824c1",
+    "name": "Finanças Corporativas",
+    "description": "Gestão financeira empresarial.",
+    "types": [
+      "Administração",
+      "Negócios"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "e14abc48-d244-48ef-918d-bf89e5eefe99",
+    "name": "Controladoria",
+    "description": "Controle e gestão contábil.",
+    "types": [
+      "Administração"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "94750709-6269-405a-8bc2-283f3d56ca33",
+    "name": "Auditoria Contábil",
+    "description": "Processos de auditoria financeira.",
+    "types": [
+      "Administração",
+      "Negócios"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "b634623b-9284-4715-83c2-ab9e990af61f",
+    "name": "Gestão Hospitalar",
+    "description": "Administração de instituições de saúde.",
+    "types": [
+      "Saúde",
+      "Administração"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "4e6f110b-583e-4781-b434-302b7af582ff",
+    "name": "Informática em Saúde",
+    "description": "Tecnologia aplicada à saúde.",
+    "types": [
+      "Saúde",
+      "Tecnologia"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "082d8008-0fc3-4998-aa66-9fd98c01f60f",
+    "name": "Telemedicina",
+    "description": "Saúde digital e atendimento remoto.",
+    "types": [
+      "Saúde",
+      "Tecnologia"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "7ed24dd4-2de9-42c0-bb9d-d0e5491c791d",
+    "name": "Psicologia Organizacional",
+    "description": "Comportamento humano nas organizações.",
+    "types": [
+      "Saúde",
+      "Administração"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "9d2f412a-9ccd-4c41-bb14-e9aeb14f6aa6",
+    "name": "Gestão de Conflitos",
+    "description": "Mediação e resolução de conflitos.",
+    "types": [
+      "Administração",
+      "Educação"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "bc3286f5-af60-4f8a-a3d8-b496d2b375f3",
+    "name": "Mediação e Arbitragem",
+    "description": "Soluções alternativas de conflitos jurídicos.",
+    "types": [
+      "Direito"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "053a16a6-57bd-40cc-b012-6afbff9c4394",
+    "name": "Direito Empresarial",
+    "description": "Legislação aplicada às empresas.",
+    "types": [
+      "Direito",
+      "Negócios"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "e5043392-389e-4602-9818-c36e07a2a610",
+    "name": "Direito Tributário",
+    "description": "Sistema tributário e impostos.",
+    "types": [
+      "Direito",
+      "Administração"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "db87f85b-8442-40c1-b242-b580f66c019c",
+    "name": "Legislação Educacional",
+    "description": "Normas e políticas educacionais.",
+    "types": [
+      "Direito",
+      "Educação"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "84a654c4-1844-4190-9efa-1a2fc6c7272d",
+    "name": "Direito Internacional",
+    "description": "Relações jurídicas internacionais.",
+    "types": [
+      "Direito"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "6539e895-3737-4680-a43b-b0d3f126efa9",
+    "name": "Produção de Conteúdo Digital",
+    "description": "Criação de conteúdo para mídias digitais.",
+    "types": [
+      "Negócios",
+      "Tecnologia"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "0a79a737-edac-49dc-bcee-f6aba41446cb",
+    "name": "UX/UI Design",
+    "description": "Experiência e interface do usuário.",
+    "types": [
+      "Tecnologia",
+      "Negócios"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "047a839a-1bc6-4e14-8218-e130c66bdcca",
+    "name": "Design Thinking",
+    "description": "Inovação centrada no usuário.",
+    "types": [
+      "Negócios",
+      "Educação"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "5dbba540-f6a0-4b66-acd7-1bccf162b3f0",
+    "name": "Gestão de Produtos Digitais",
+    "description": "Ciclo de vida de produtos digitais.",
+    "types": [
+      "Tecnologia",
+      "Negócios"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "dac18031-ce3d-4304-8f6e-9e4d0ef8fa52",
+    "name": "Product Management",
+    "description": "Gestão estratégica de produtos.",
+    "types": [
+      "Negócios",
+      "Administração"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "8ca70804-5efb-4cb2-bc8f-db237b3bac72",
+    "name": "Data Governance",
+    "description": "Governança e qualidade de dados.",
+    "types": [
+      "Dados",
+      "Administração"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "1d8067e9-ce61-4b1e-9a9d-63d99d32b8bb",
+    "name": "Data Engineering",
+    "description": "Engenharia de dados.",
+    "types": [
+      "Dados",
+      "Tecnologia"
+    ],
+    "workload": 80,
+    "averageApproval": 7
+  },
+  {
+    "id": "d3474589-6b4a-46c0-b845-e1db126e6989",
+    "name": "Data Visualization",
+    "description": "Visualização e storytelling de dados.",
+    "types": [
+      "Dados",
+      "Tecnologia"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "e5dc8c4a-d27d-45ec-aa35-9b2f3f5f54a0",
+    "name": "Business Intelligence",
+    "description": "Inteligência de negócios baseada em dados.",
+    "types": [
+      "Dados",
+      "Negócios"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  },
+  {
+    "id": "cecfa738-f494-4270-81e4-8c898fcdf4ab",
+    "name": "Analytics Empresarial",
+    "description": "Análise de dados para tomada de decisão.",
+    "types": [
+      "Dados",
+      "Administração"
+    ],
+    "workload": 60,
+    "averageApproval": 7
+  }
+]
